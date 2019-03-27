@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Bootstrap 4 Website Example </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <style>
+     
+     
+
+      .jumbotron {
+          background: white;
+          width: 100%;
+          height: 300px;
+          padding: 0px;
+          text-align: center;
+          
+        
+      }
+      .jumbotron img{
+          width: 100%;
+          height: 300px;
+      }
+   
+        
+      .dropdown-menu{
+          border: none;
+         
+      }
+   
+      section{
+          width: 100%;
+          height: 800px;
+          margin: 0px;
+      }  
+       .my-5{
+          margin: 10px;
+          text-align: center;
+          width: 100%;
+          display: block;
+        
+      }  
+          
+      
+      .page-footer{
+          background-color:  #FF8000;
+          margin; 2px;
+         
+          
+      }
+      .page-footer a{
+          color: white;
+      }
+     
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0" ".bg-success ">
+
+  <h1><img src="Imagenes/foto-test.jpg"></h1>
+ 
+</div>
+
+<!-- BArra de navegador-->
+<nav class="navbar navbar-expand-sm bg-success navbar-dark">
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse"id="collapse_target">
+
+  <!-- Brand -->
+  <a class="navbar-brand" href="#"><img src="Imagenes/hojadeplatano.png" style="height: 50px" width="50px"></a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item " >
+      <a class="nav-link" href="index.html">Inicio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">La Reserva</a>
+      <!-- Barra de nagecaion despeglable -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       Caracterización
+      </a>
+      <div class="dropdown-menu  bg-success navbar-dark">
+        <a class="dropdown-item" href="#">Caracterizacion1</a>
+        <a class="dropdown-item" href="#">Caracterizacion2</a>
+        <a class="dropdown-item" href="#">Caracterizacion3</a>
+      </div>
+    </li>
+     <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Proyectos
+      </a>
+      <div class="dropdown-menu bg-success navbar-dark">
+        <a class="dropdown-item" href="#">Proyecto 1</a>
+        <a class="dropdown-item" href="#">Proyecto 2</a>
+        <a class="dropdown-item" href="#">Proyecto 3</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Sistema de Aseguramiento</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">Galerias</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">Centro de Documentacion</a>
+    </li>
+     <!-- Barra de nagecaion despeglable -->
+    <li class="nav-item dropdown ">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       Productos y Servicios
+      </a>
+      <div class="dropdown-menu bg-success navbar-dark">
+        <a class="dropdown-item" href="#">Producto 1</a>
+        <a class="dropdown-item" href="#">Producto 2</a>
+        <a class="dropdown-item" href="#">Producto 3</a>
+      </div>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="contacto.html">Contacto</a>
+    </li>
+    
+   
+    <!-- Dropdown -->
+   
+  </ul>
+  </div>
+</nav>
+
+
+<!-- Section: Contact v.2 -->
+<section class="my-5">
+
+  <!-- Section heading -->
+  <h2 class="h1-responsive font-weight-bold text-center my-5">Contact us</h2>
+  <!-- Section description -->
+  <p class="text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+
+  <!-- Grid row -->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-md-9 mb-md-0 mb-5">
+
+      <form>
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="contact-name" class="form-control">
+              <label for="contact-name" class="">TU NOMBRE</label>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="contact-email" class="form-control">
+              <label for="contact-email" class="">TU EMAIL</label>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-12">
+            <div class="md-form mb-0">
+              <input type="text" id="contact-Subject" class="form-control" >
+              <label for="contact-Subject" class="">ASUNTO</label>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-12">
+            <div class="md-form">
+              <textarea type="text" id="contact-message" class="form-control md-textarea" rows="3"></textarea>
+              <label for="contact-message">TU MENSAJE</label>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </form>
+
+      <div class="text-center text-md-left">
+        <a class="btn btn-primary btn-md" >ENVIAR</a>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-3 text-center">
+      <ul class="list-unstyled mb-0">
+        <li>
+          <i class="fa fa-map-marker fa-2x blue-text"></i>
+          <p>San Francisco, CA 94126, USA</p>
+        </li>
+        <li>
+          <i class="fa fa-phone fa-2x mt-4 blue-text"></i>
+          <p>+ 01 234 567 89</p>
+        </li>
+        <li>
+          <i class="fa fa-envelope fa-2x mt-4 blue-text"></i>
+          <p class="mb-0">contact@example.com</p>
+        </li>
+      </ul>
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+</section>
+<!-- Section: Contact v.2 -->
+            
+
+
+
+ 
+
+<!-- Footer basico con informacion y Links-->
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">NUESTRA RESERVA!</h5>
+        <p>Siempre eres Bienvenido(a) a esta maravilla que la tierra y el Planeta tiene.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Contáctanos</a>
+          </li>
+          <li>
+            <a href="#!">Galeria</a>
+          </li>
+          <li>
+            <a href="#!">Localización</a>
+          </li>
+         
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/bootstrap-tutorial/"> Brisas del Dagua</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+                
+</body>
+</html>
+
